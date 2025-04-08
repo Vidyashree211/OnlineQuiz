@@ -1,14 +1,19 @@
 Online Quiz
 
-About the Project
+About the Project:
 
-The Project Summary
+The Project Summary:
+
 The project entitled Online Quiz focuses on coding-related questions. It presents multiple-choice questions to users and tracks their performance, including scores and total time left for answering. Additionally, it includes a login and signup system, allowing users to create accounts and access personalized quiz sessions.
-The Problem statement
+
+The Problem statement:
+
 The Online Quiz is designed to help users test and improve their coding knowledge interactively. It benefits learners preparing for technical interviews, coding competitions, or general programming practice. The choice of this problem statement is likely motivated by the need for an engaging and accessible way to enhance programming skills while tracking progress.
 
-Features of the project
+Features of the project:
+
 Multiple-choice questions: Users are presented with coding-related questions.
+
 Timer functionality: A countdown timer ensures users answer within a limited time.
 Instant feedback: Correct or incorrect responses are immediately displayed.
 Scoring system: The app calculates and displays the user's score based on correct answers.
