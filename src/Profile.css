@@ -1,0 +1,123 @@
+.profile-container {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+  }
+  
+  .profile-card {
+    width: 100%;
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    color: #fff;
+    animation: fadeInUp 0.6s ease;
+  }
+  
+  .profile-card h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffc107;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .profile-card p {
+    font-size: 1rem;
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffc107;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  .profile-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .profile-buttons button {
+    background-color: #ffc107;
+    color: black;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 193, 7, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .profile-buttons button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 193, 7, 0.6);
+  }
+  
+  .quiz-history-table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .quiz-history-table th,
+  .quiz-history-table td {
+    padding: 14px 18px;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .quiz-history-table thead {
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+  
+  .quiz-history-table th {
+    color: #ffc107;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  
+  .quiz-history-table td {
+    color: #e0e0e0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  
+  .quiz-history-table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
