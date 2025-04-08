@@ -15,10 +15,15 @@ Features of the project:
 Multiple-choice questions: Users are presented with coding-related questions.
 
 Timer functionality: A countdown timer ensures users answer within a limited time.
+
 Instant feedback: Correct or incorrect responses are immediately displayed.
+
 Scoring system: The app calculates and displays the user's score based on correct answers.
+
 User-friendly interface: A simple UI ensures a smooth quiz experience.
+
 User History Tracking: Displays quiz title, scores, total no of questions, date and time.
+
 Login and Sign-Up: Users can create accounts and log in to track their progress.
 
 Screenshots:
